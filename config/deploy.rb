@@ -1,8 +1,8 @@
 # Change these
 server '35.187.147.212', roles: [:web, :app, :db], primary: true
 
-# set :repo_url,        'git@github.com:phusion/passenger-ruby-rails-demo.git'
-set :scm, :copy
+set :repo_url,        'git@github.com:suntootoo/demo-rails.git'
+# set :scm, :git
 set :application,     'code'
 set :user,            'deploy'
 set :puma_threads,    [4, 16]

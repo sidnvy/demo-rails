@@ -4,7 +4,6 @@ require 'capistrano/deploy'
 
 require 'capistrano/rails'
 require 'capistrano/bundler'
-require 'capistrano/copy'
 require 'capistrano/rvm'
 require 'capistrano/puma'
 install_plugin Capistrano::Puma  # Default puma tasks
